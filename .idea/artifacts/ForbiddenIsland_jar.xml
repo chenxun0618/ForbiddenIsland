@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ForbiddenIsland:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ForbiddenIsland_jar</output-path>
+    <root id="archive" name="ForbiddenIsland.jar">
+      <element id="module-output" name="ForbiddenIsland" />
+      <element id="library" level="module" name="javalib.jar" module-name="ForbiddenIsland" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../eclipse jar/javalib.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../eclipse jar/tester.jar" path-in-jar="/" />
+      <element id="library" level="module" name="tester.jar" module-name="ForbiddenIsland" />
+    </root>
+  </artifact>
+</component>
